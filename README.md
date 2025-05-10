@@ -1,53 +1,99 @@
 # USSD-Togo
-Ce repos cree pour tuer le teps rassemble les codes USSD des operateurs de telephonies mobile present au Togo.
+
+## Évolution du secteur des télécommunications au Togo
+
+Le secteur des télécommunications au Togo a connu une transformation majeure depuis 2019, avec la privatisation de l'opérateur historique et le repositionnement stratégique des deux principaux acteurs du marché. Cette évolution s'inscrit dans le cadre du Plan National de Développement (PND) du Togo, qui vise à faire du pays un hub régional pour la digitalisation et la technologie.
+
+### Yas Togo (anciennement Togocom, Togo Telecom et Togo Cellulaire)
+
+En novembre 2019, le gouvernement togolais a accepté l'offre d'Agou Holding, un consortium composé du Groupe Axian et d'Emerging Capital Partners (ECP), pour acquérir 51% des parts de Togocom, la holding regroupant Togo Telecom et Togo Cellulaire (Togocel). Cette privatisation a valorisé l'entreprise à plus de 210 milliards de FCFA. L'État togolais conserve 49% des parts. Le consortium s'est engagé à investir 245 millions d'euros (environ 160 milliards de FCFA) sur sept ans pour révolutionner le secteur numérique au Togo.
+
+Depuis cette acquisition, l'opérateur a considérablement développé son infrastructure. En novembre 2020, Togocom a lancé le premier réseau 5G d'Afrique de l'Ouest, en partenariat avec Nokia. En novembre 2022, l'opérateur a atteint le jalon de 1000 stations de base, couvrant 88% du territoire national et 98% de la population togolaise. En janvier 2024, l'entreprise a obtenu un prêt de 60,2 millions de dollars de la Société Financière Internationale (IFC) pour moderniser son infrastructure et étendre ses services 4G LTE et fibre optique.
+
+Le 25 novembre 2024, Togocom a officiellement changé de nom pour devenir Yas Togo, dans le cadre d'une stratégie de rebranding menée par le groupe panafricain Axian. Ce changement s'inscrit dans une démarche d'unification des marques d'Axian Telecom à travers l'Afrique, où Tigo en Tanzanie, Telma à Madagascar et aux Comores, Free au Sénégal, et Togocom au Togo sont désormais réunis sous le nom Yas. Dans la même dynamique, le service de mobile money TMoney a également été renommé et s'appelle désormais Mixx by Yas.
+
+### Moov Africa Togo (anciennement Moov Togo)
+
+Moov Togo, opérateur privé présent au Togo depuis 1998, était une filiale d'Atlantique Telecom. En 2015, Maroc Telecom a acquis Atlantique Telecom et ses filiales en Afrique de l'Ouest et Centrale, dont Moov Togo. Maroc Telecom est lui-même détenu à 53% par le groupe Etisalat et à 30% par le Royaume du Maroc.
+
+En janvier 2021, dans le cadre d'une stratégie de marque unifiée, Maroc Telecom a rebaptisé toutes ses filiales africaines sous la marque "Moov Africa". Ainsi, Moov Togo est devenu Moov Africa Togo. Cette nouvelle identité illustre la vision "L'Afrique en mouvement" du groupe Maroc Telecom et vise à renforcer les synergies entre ses différentes filiales présentes dans 11 pays africains.
+
+### État actuel du marché et avancées technologiques
+
+Aujourd'hui, le marché des télécommunications au Togo est dominé par ces deux opérateurs qui investissent massivement dans les technologies de nouvelle génération. La 4G est largement déployée dans les zones urbaines, et la 5G a commencé à être déployée à Lomé depuis fin 2020. Yas Togo (ex-Togocom) vise à fournir un accès Internet mobile à 95% de la population d'ici 2025, tandis que Moov Africa Togo continue d'améliorer ses services avec des vitesses de téléchargement moyennes de 31,60 Mbps selon une étude de 2023.
+
+Ces développements s'inscrivent dans la Stratégie de Transformation Digitale du gouvernement togolais, qui vise à améliorer la connectivité mobile et fixe à haut débit pour l'ensemble de la population, favorisant ainsi l'inclusion numérique et le développement économique du pays.
+
+---
+
+Ce repos cree pour tuer le temps rassemble les codes USSD des operateurs de telephonies mobile present au Togo.
 J'essayerai de le mettre a jour le plus souvent que possible.
 
-## Moov Togo ( Atlantique Telecom Togo )
-[Site Officiel](https://www.moov.tg)
+## Moov Africa Togo (anciennement Moov Togo / Atlantique Telecom Togo)
+[Site Officiel](https://www.moov-africa.tg)
 
-_avril 05, 2017_ Credit [emilasic](http://emilasic.blogspot.com/2017/04/les-codes-ussid-de-et-moov-togo-togocel.html)
+_Mise à jour: Novembre 2024_
 
-- `*101#` Consulter son credit
+### Services de base
+- `*101#` - Consulter son crédit
+- `*102#` - Transfert de crédit de communication
+  - Pour transférer : `*102*crédit*numéro*code#`
+- `*106#` - Connaître son numéro
+- `*107#` - Gérer ses numéros préférés
+  - Ajouter un numéro: `*107*1*numéro#`
+  - Supprimer un numéro : `*107*0*numéro#`
+- `*108*numéro#` - Rappel moi (demande de rappel sans crédit)
+- `*109*code crédit*numéro#` - Achat de crédit à distance
 
-- `*102#` Ce code vous permet de transférer le crédit de communication de votre numéro moov vers un notre numéro moov.
- *Avant le premier transfert, faites  `*102*0000*nouveau code de transfert#` ceci permet de changer votre code de transfert par defaut
- * pour transférer : `*102*crédit*numéro*code#`
+### Services Flooz (Mobile Money)
+- `*155#` - Menu principal Flooz/Moov Money
+- `*155*1#` - Transfert d'argent
+- `*155*3*1#` - Achat de crédit via Moov Money
+- `*155*4*3#` - Réabonnement CANAL+
+- `*155*4*4#` - Paiement en magasin
+- `*155*5#` - Participation à une collecte de fonds
+- `*155*6#` - Consultation du solde Moov Money
+- `*155*7#` - Paiement de frais d'inscription aux examens et concours
+- `*155*9#` - Service Bank'vi (tontine digitale) et achat de forfaits
 
-- `*106#` Avec Moov, vous avez la possibilité de changer votre plan tarifaire.
+### Nouveaux services (2024)
+#### PASS MONEY FLOOZ (lancé en juin 2024)
+- Permet de transférer de l'argent entre les comptes Flooz et Orabank sans nécessiter de connexion internet
+- Accessible via le code USSD `*155*7*2*4#`
+- Fonctionnalités:
+  - Transfert Orabank vers Flooz
+  - Transfert Flooz vers Orabank
+  - Consultation de solde
+  - Mini-relevé de compte
+- Procédure de souscription:
+  1. Saisir `*155#`
+  2. Choisir l'option 7, « Ma Banque en ligne»
+  3. Choisir l'option 2 « Banques »
+  4. Choisir l'option 4 « ORABANK »
+  5. Choisir l'option 5 « Souscription »
+  6. Suivre les instructions pour finaliser la souscription
 
-- `*107#` Moov complice! Choisissez 5 numéros que vous appelez régulièrement. le coût d'appel vers ces numéros est vraiment très réduit.
- [x] ajouter un numéro: `*107*1*numéro#`
- [x] Pour supprimer un numéro : `*107*0*numéro#`
+#### Bank'vi (service de tontine digitale)
+- Permet de constituer une épargne rotative (tontine) à partir d'un compte Mobile Money Flooz
+- Accessible via le code USSD `*155*9#`
+- Les participants s'engagent à verser une somme prédéterminée à une fréquence donnée
+- Fonctionnalités:
+  - Sécurité des fonds: tous les fonds sont collectés sur un compte Mobile Money Flooz différent des comptes des membres
+  - Sécurité de collecte: protection contre le vol ou le détournement des fonds
+  - Transparence de la gestion: notifications SMS pour chaque transaction
+  - Gestion du cycle de la tontine: validation transparente des demandes de remboursement
 
-- `*108#` Moovbip. Sans crédit de communication, vous pouvez laisser un SMS à votre correspondant lui demandant de vous rappeler.
-il suffit de taper `*108*numéro#`
-
--`*109#` Si vous devez acheter du credit à un ami ou autre un proches à distance, il suffit de taper `*109* code crédit*numéro#` et le compte à distance est chargé.
-
-7. *100*1*1#
-Pour connaître votre propre numéro de téléphone Moov, tapez *100*1*1# et vous aurez également le profil de votre numéro.
-
-8. *100*2#
-Ce code vous affiche les codes que vous devez tapez pour effectuer une migration de profil.
-
-
-9.*100*3#
-Tapez ce code si vous voulez activer ou désactiver un service de Moov tels que moovtones, Soscredit, Moovkiosque, moovScoop.
-
-10. *100*4#
-Envie d'être au courant des promo et événements de Moov, tapez de temps en temps *100*4#.
+### Autres services
+- `*100*1*1#` - Connaître son numéro et profil
+- `*100*2#` - Codes pour migration de profil
+- `*100*3#` - Activer/désactiver des services (moovtones, Soscredit, Moovkiosque, moovScoop)
+- `*100*4#` - Informations sur les promos et événements
+- `*100*5#` - Trouver une agence Moov
+- `*100*8#` - Autres codes utiles
 
 
-11.  *100*5#
-Trouvez une agence Moov en tapant ce code.
-
-
-12. *100*8#
-Trouvez d'autres codes utiles en tapant *100*8#.
-
-
-## Togocel ( TogoCom )
-[Site Officiel](https://www.togocel.tg)
+## Yas Togo (anciennement Togocom / Togocel / Togo Telecom)
+[Site Officiel](https://yas.tg)
 
 _avril 05, 2017_ Credit [emilasic](http://emilasic.blogspot.com/2017/04/les-codes-ussid-de-et-moov-togo-togocel.html)
 
