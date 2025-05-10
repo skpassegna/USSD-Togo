@@ -2,7 +2,7 @@
 
 Ce dépôt rassemble les codes USSD des opérateurs de téléphonie mobile présents au Togo.
 
-_Dernière mise à jour: Mai 2025_
+_Dernière mise à jour: 10 Mai 2025_
 
 ## Moov Africa Togo
 [Site Officiel](https://www.moov-africa.tg)
@@ -194,3 +194,27 @@ _Dernière mise à jour: Mai 2025_
 | Consultation numéro | **\*555#** | Connaître son numéro de téléphone |
 | Activation Roaming | **\*909\*611#** | Activer le service Roaming |
 | Désactivation Roaming | **\*909\*613#** | Désactiver le service Roaming |
+
+## Évolution des opérateurs télécom au Togo (2020-2025)
+
+### Moov Africa Togo
+
+Moov Africa Togo est la filiale togolaise de Moov Africa, appartenant au groupe Maroc Telecom. Depuis 2020, l'opérateur a connu plusieurs évolutions importantes :
+
+- **Janvier 2021** : Moov Togo a été rebaptisé "Moov Africa Togo" dans le cadre d'une stratégie de marque unifiée pour toutes les filiales africaines de Maroc Telecom.
+- **2022-2024** : Investissements significatifs dans l'infrastructure réseau, avec une croissance de 75% des investissements en 2024 par rapport à 2021.
+- **Avril 2025** : Moov Africa Togo a été classé comme le meilleur réseau d'internet mobile au Togo et le deuxième dans l'UEMOA selon les dernières évaluations de qualité d'expérience client.
+- **2025** : Développement continu des services financiers mobiles via Moov Money Flooz, avec de nouvelles fonctionnalités et une meilleure intégration avec les services bancaires traditionnels.
+
+Moov Africa Togo continue de jouer un rôle clé dans la transformation numérique du pays, avec une attention particulière portée à l'inclusion financière via Moov Money Flooz et à l'expansion de la couverture 4G dans les zones rurales.
+
+### Yas Togo (anciennement Togocom)
+
+Togocom a connu une transformation majeure ces dernières années :
+
+- **2020-2023** : Période d'investissement et de modernisation sous la direction d'AXIAN Telecom, qui détient 51% de Togocom depuis 2019.
+- **Janvier 2024** : Partenariat avec la Société Financière Internationale (IFC) pour un prêt de 55 millions d'euros destiné à moderniser l'infrastructure, accélérer le déploiement du réseau 4G et étendre le réseau de fibre optique.
+- **Octobre 2024** : Réorganisation des activités de services financiers mobiles avec la création de Tmoney S.A., une entité indépendante dédiée aux services de transfert et de gestion d'argent mobile.
+- **Novembre 2024** : Rebranding majeur de Togocom qui devient "Yas Togo" et de T-Money qui devient "Mixx by Yas", dans le cadre d'une stratégie panafricaine du groupe AXIAN Telecom visant à unifier ses marques dans plusieurs pays (Madagascar, Comores, Sénégal, Togo et Tanzanie).
+
+Ce rebranding s'inscrit dans une stratégie plus large visant à créer des synergies entre les différents marchés, simplifier les opérations, partager les meilleures pratiques et optimiser les coûts tout en offrant une expérience client harmonisée et sans frontières.
