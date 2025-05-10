@@ -15,6 +15,7 @@ _Dernière mise à jour: Mai 2025_
 | Consultation du solde | **\*101#** | Consulter son solde |
 | Statut identification | **\*202#** ou **\*848#** | Vérifier le statut d'identification de votre SIM |
 | Désactivation/Activation push | **\*100\*3\*4#** | Accéder au menu désactivation/Activation des notifications push |
+| Connaître son numéro | **\*106#** | Afficher son propre numéro de téléphone |
 
 ### 2. Transfert de crédit et gestion du code secret
 
@@ -55,30 +56,26 @@ _Dernière mise à jour: Mai 2025_
 | Activation du compte Flooz | **\*155#** | Activer automatiquement votre compte Moov Money Flooz |
 | Transfert vers un numéro Moov | **\*155\*1\*1\*Numéro Moov\*Montant\*Code Secret#** | Transférer de l'argent vers un numéro Moov au Togo |
 | Transfert vers un autre réseau | **\*155\*1\*1\*Numéro autre réseau\*Montant\*Code Secret#** | Transférer de l'argent vers un numéro d'un autre réseau au Togo |
+| Achat de crédit pour soi | **\*155\*3\*1\*Montant\*Code Secret#** | Acheter du crédit pour son propre numéro |
+| Achat de crédit pour un proche | **\*155\*3\*2\*Numéro\*Montant\*Code Secret#** | Acheter du crédit pour un autre numéro |
+| Paiement de factures | **\*155\*4#** | Accéder au menu de paiement de factures |
+| Paiement CEET/TDE | **\*155\*4\*1#** | Payer une facture d'électricité ou d'eau |
+| Paiement Université | **\*155\*4\*2#** | Payer des frais universitaires |
+| Paiement Cashpower | **\*155\*4\*5#** | Acheter du crédit Cashpower |
+| Duplicata Cashpower | **\*155\*4\*5#** option 3 | Obtenir un duplicata de code Cashpower |
+| Réabonnement Canal+ | **\*155\*4\*8\*1#** | Réabonnement Canal+ à l'identique |
+| Consulter solde Flooz | **\*155\*6#** | Consulter son solde Moov Money Flooz |
 
-### 7. Forfaits Internet 4G (Journalier et hebdomadaire)
+### 7. Forfaits Internet et services
 
-| Forfait | Volume | Validité | Prix | Code USSD |
-|---------|--------|----------|------|-----------|
-| iZi'Free | 50 Mo | 1 Jour | 100 F | **\*400\*2\*1\*1#** |
-| iZi'Cool | 120 Mo | 1 Jour | 200 F | **\*400\*2\*1\*2#** |
-| iZi'Wik | 1,5 Go | 7 Jours | 1 000 F | **\*400\*2\*1\*3#** |
-| iZi'Relax | 400 Mo | 3 Jours | 500 F | **\*400\*2\*1\*4#** |
-| iZi'Kif | 180 Mo | 3 Jours | 300 F | **\*400\*2\*1\*5#** |
-| iZi'Wik Plus | 4 Go | 7 Jours | 1 500 F | **\*400\*2\*1#** option 6 |
-| iZi'Moon | 4 Go | 1 Nuit (22h-7h) | 500 F | **\*400\*2\*3\*1#** |
-| Consultation solde Internet | - | - | - | **\*400\*4#** |
-| Consultation solde iZi'Moon | - | - | - | **\*400\*2\*3\*3#** |
-
-### 8. Forfaits Internet 4G (hebdomadaire/mensuel)
-
-| Forfait | Volume | Validité | Prix | Code USSD |
-|---------|--------|----------|------|-----------|
-| iZi'Small 1 | 6 Go | 10 jours | 2 500 F | **\*400\*2\*2\*1#** |
-| iZi'Small 2 | 6 Go | 30 jours | 4 500 F | **\*400\*2\*2\*2#** |
-| iZi'Medium 1 | 15 Go | 15 jours | 5 000 F | **\*400\*2\*2\*3#** |
-| iZi'Medium 2 | 30 Go | 30 jours | 9 000 F | **\*400\*2\*2\*4#** |
-| iZi'Large | 75 Go | 30 jours | 15 000 F | **\*400\*2\*2\*5#** |
+| Service | Code USSD | Description |
+|---------|-----------|-------------|
+| Forfaits Internet 4G | **\*100\*3\*1#** | Acheter un forfait Internet |
+| Consultation volume Internet | **\*100\*3\*2\*1#** | Consulter son volume Internet restant |
+| Achat de pass pour un tiers | **\*100\*3\*4#** | Acheter un forfait Internet pour un tiers |
+| Forfaits mixtes et voix | **\*100\*1#** | Acheter un forfait mixte (appels, SMS, Internet) |
+| Forfaits internationaux | **\*100\*5#** | Acheter un forfait pour appels internationaux |
+| Pass internationaux | **\*100\*3\*6#** | Souscrire à un pass international (roaming) |
 
 ## Yas Togo (anciennement Togocom / Togocel / Togo Telecom)
 [Site Officiel](https://yas.tg)
